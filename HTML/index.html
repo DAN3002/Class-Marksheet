@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Class Marksheet</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="..\JS\person.js"></script>
+	<script src="..\JS\js.js"></script>
+	<link rel="stylesheet" href="..\CSS\skeleton.css">
+	<link rel="stylesheet" href="..\CSS\style.css">	
+</head>
+<body>	
+	<h1 style="text-align: center; margin: 0px;">Class Marksheet</h1>
+	<form class="">
+		<input type="text" placeholder="Họ và Tên" id="name">			
+		<input type="text" placeholder="Điểm Toán" id="math">
+		<input type="text" placeholder="Điểm Lý" id="chemistry">	
+		<input type="text" placeholder="Điểm Hoá" id="physical">
+		<button type="button" id="add">Nhập</button>		
+	</form>
+	<table>
+		<thead>
+			<th style="width: 10%;">STT</th>
+			<th style="width: 30%;">Họ và tên</th>
+			<th style="width: 15%;">Toán</th>
+			<th style="width: 15%;">Lý</th>
+			<th style="width: 15%;">Hoá</th>
+			<th style="width: 15%;">Trung bình</th>
+		</thead>
+		<tbody>
+		</tbody>
+	</table>		
+	<div class="function">
+		<button type="button" style="width: 28%" id="button1">Tính điểm trung bình</button>
+		<button type="button" style="width: 38%" id="button2">Sắp xếp theo điểm trung bình</button>
+		<button type="button" style="width: 28%" id="button3">Lọc học sinh giỏi</button>
+	</div>		
+</body>
+</html>
