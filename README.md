@@ -1,23 +1,28 @@
 # Class Marksheet
-Phần mềm quản lý điểm học sinh mức cơ bản, chỉ là 1 Project nho nhỏ để luyện Javascript :))
+A basic student marks management software, just a small project to practice Javascript :))
 
-# Các tình huống sử dụng
-* **Tình huống 1:** Người dùng nhập tên và các điểm số rồi ấn nút `"Nhập"` để ghi dữ liệu vào bảng, thông tin về điểm trung bình chưa được tính ngay, sẽ để giá trị "?".
-* **Tình huống 2:** Người dùng nhấn nút `"Tính điểm trung bình"`, giá trị điểm trung bình của ba điểm toán, lý, hóa của từng học sinh sẽ được tính và thay thế cho giá trị "?" ở cột "Trung bình".
-* **Tình huống 3:** Người dùng nhấn nút `"Xác định học sinh giỏi"`, những học sinh có điểm trung bình >= 8.0 sẽ được bôi đỏ.
-* **Tình huống 4:** Người dùng nhấn nút `"Sắp xếp theo điểm trung bình"`, hệ thống sẽ sắp xếp lại thứ tự học sinh theo điểm trung bình với thứ tự từ lớn đến bé.
+## Usage Scenarios
+1. Input student name and scores, then press "Enter" button to insert data into the table. The average score will not be calculated immediately and will be displayed as "?".
+2. Press the "Calculate Average Score" button to calculate the average of the three subjects (math, physics, and chemistry) for each student. The average score will replace the "?" in the "Average" column.
+3. Press the "Determine Outstanding Students" button to highlight students with an average score >= 8.0 in red.
+4. Press the "Sort by Average Score" button to sort the students by their average score in descending order.
 
-# Cách sử dụng
-Clone về và sử dụng trên web như bình thường thôi.
+## How to Use
+Clone and use it on the web as usual.
 
-# Được xây dựng với
-1. [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
-2. [CSS3](https://developer.mozilla.org/vi/docs/Web/CSS/CSS3)
-3. [Javascript](https://www.javascript.com/)
-3. [jQuery](https://jquery.com/)
-4. [Skeleton css framework](http://getskeleton.com/)
+## Built with
 
-# Tác giả
-D.A.N_3002
-* Youtube Channel: https://www.youtube.com/channel/UCp8h46TWMs1qjeepv_QWJkA
-* Gmail: dinhanh300229@gmail.com
+- HTML5
+- CSS3
+- Javascript
+- jQuery
+- Skeleton CSS Framework
+
+## Author
+[Your Name]
+
+## Contributing
+Feel free to fork and contribute to this project.
+
+## License
+This project is licensed under the [license name].
