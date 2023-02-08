@@ -1,5 +1,5 @@
 # Class Marksheet
-A basic student marks management software, just a small project to practice Javascript :))
+A basic student marks management software, just a small project to practice Javascript.
 
 ## Usage Scenarios
 1. Input student name and scores, then press "Enter" button to insert data into the table. The average score will not be calculated immediately and will be displayed as "?".
@@ -18,11 +18,13 @@ Clone and use it on the web as usual.
 - jQuery
 - Skeleton CSS Framework
 
-## Author
-[Your Name]
-
 ## Contributing
 Feel free to fork and contribute to this project.
 
+## Author
+
+- [D.A.N_3002](https://github.com/DAN3002)
+
 ## License
-This project is licensed under the [license name].
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
